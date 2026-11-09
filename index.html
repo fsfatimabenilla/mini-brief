@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mes dépanses:</h1>
+
+    <form id="form" novalidate>
+        <input type="text" id="nom" placeholder="Nom">
+        <input type="number"  id="mantant" placeholder="Montant">
+        <button type="submit">Ajouter</button>
+    </form>
+    <p id="error"></p>
+  
+    <div>
+       <div id="filtre">
+        <button>Tous</button>
+           <button>Food</button>
+           <button>Transport</button>
+           <button>Loisirs</button>
+       </div>
+       <input type="search" id="recherche">
+    </div>
+    <ul id="liste"></ul>
+    <p id="total"></p>
+</body>
+</html>

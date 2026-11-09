@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #7c9cff;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c8cff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4d6fe0;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#filtre {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#recherche {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#liste {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+}
+
+#liste li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#total {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
