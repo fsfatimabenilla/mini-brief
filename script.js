@@ -23,5 +23,11 @@ function affichage(produit){
         li.textContent = produits.nom + produits.montant;
         liste.append(li);
     });
+    
+    const totalMN = produit.reduce((mnt,produits)=>{
+        return mnt + produits.montant;
+    },0);
+    total.textContent = "Total est:" + totalMN;
 }
+
 affichage(produits);
