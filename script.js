@@ -7,3 +7,5 @@ const recherche = document.querySelector("#recherche");
 const liste = document.querySelector("#liste");
 const total = document.querySelector("Total");
 
+console.log("children:"+liste.children.length) ;
+console.log("childNodes:"+liste.childNodes.length);
